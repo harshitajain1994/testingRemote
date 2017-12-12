@@ -1,0 +1,32 @@
+2017-11-27 23:24:44 weka.gui.GUIChooserApp main
+INFO: Logging started
+2017-11-27 23:24:45 weka.gui.GenericObjectEditor registerEditors
+INFO: ---Registering Weka Editors---
+2017-11-27 23:24:46 weka.experiment.DatabaseUtils initialize
+WARNING: Trying to add database driver (JDBC): jdbc.idbDriver - Warning, not in CLASSPATH?
+2017-11-27 23:24:46 weka.gui.beans.BeansProperties loadProperties
+INFO: [KnowledgeFlow] Loading properties and plugins...
+2017-11-27 23:24:46 weka.gui.beans.KnowledgeFlowApp init
+INFO: [KnowledgeFlow] Initializing KF...
+2017-11-27 23:25:06 weka.gui.explorer.Explorer <init>
+INFO: Weka Explorer
+2017-11-27 23:25:06 weka.gui.explorer.Explorer <init>
+INFO: (c) 1999-2016 The University of Waikato, Hamilton, New Zealand
+2017-11-27 23:25:06 weka.gui.explorer.Explorer <init>
+INFO: web: http://www.cs.waikato.ac.nz/~ml/weka/
+2017-11-27 23:25:06 weka.gui.explorer.Explorer <init>
+INFO: Started on Monday, 27 November 2017
+2017-11-27 23:25:13 weka.gui.explorer.PreprocessPanel$20 run
+INFO: Base relation is now abalone (4177 instances)
+2017-11-27 23:25:23 weka.gui.explorer.PreprocessPanel$21 run
+INFO: Command: weka.filters.unsupervised.attribute.Remove -R 1,4,6-8
+2017-11-27 23:25:24 weka.gui.explorer.PreprocessPanel$20 run
+INFO: Base relation is now abalone-weka.filters.unsupervised.attribute.Remove-R1,4,6-8 (4177 instances)
+2017-11-27 23:25:34 weka.gui.explorer.ClassifierPanel$18 run
+INFO: Started weka.classifiers.functions.LinearRegression
+2017-11-27 23:25:34 weka.gui.explorer.ClassifierPanel$18 run
+INFO: Command: weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+2017-11-27 23:25:34 weka.gui.explorer.ClassifierPanel$18 run
+INFO: Finished weka.classifiers.functions.LinearRegression
+2017-11-27 23:26:25 weka.gui.GUIChooserApp$32 checkExit
+INFO: Intercepted System.exit() from a class other than the GUIChooser. Please ignore.
